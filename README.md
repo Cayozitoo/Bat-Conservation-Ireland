@@ -19,7 +19,7 @@ O site "Bat Conservation Ireland" é uma plataforma para promover a proteção e
 
 O projeto é composto pelos seguintes arquivos e diretórios:
 
-- `index.html`: O arquivo principal contendo a estrutura e o conteúdo da página inicial.
+- `homepage.html`: O arquivo principal contendo a estrutura e o conteúdo da página inicial.
 - `CssStyles/homepage.css`: A folha de estilos externa que estiliza os elementos HTML.
 - `imagens/Bci-icon.png`: O ícone do Bat Conservation Ireland utilizado no cabeçalho.
 
