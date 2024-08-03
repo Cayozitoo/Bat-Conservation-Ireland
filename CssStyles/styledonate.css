@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #F2831D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    font-size: 2em;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.form-container {
+    background-color: #F2831D;
+    padding: 20px;
+    border: 5px solid black;
+    display: inline-block;
+    text-align: left;
+    width: 320px;
+    position: relative;
+    border-radius: 3px;
+}
+
+.bciIcon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 90px;
+    height: auto;
+}
+
+h2 {
+    color: rgb(39, 36, 36);
+    font-size: 1.2em;
+    padding-left: 20px;
+    text-align: left;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 20px;
+    font-size: 0.9em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: transparent;
+    border: 1.4px solid #ffffff;
+    border-radius: 5px;
+    outline: none;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.social-login button {
+    background: white;
+    width: 90px;
+    padding: 5px;
+    border: none;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 9px;
+}
+
+.social-login img {
+    width: 30px;
+    height: 30px;
+}
+
+.login-btn {
+    width: 200px;
+    background-color: black;
+    color: #F2831D;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-btn:hover {
+    background-color: white
+}
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.second{
+    color: white;
+    padding-left: 20px;
+}
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.separator:not(:empty)::before {
+    margin-right: .25em;
+}
+
+.separator:not(:empty)::after {
+    margin-left: .25em;
+}
+
+input::placeholder {
+    color: #ffffff;
+}

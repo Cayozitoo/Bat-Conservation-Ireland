@@ -1,0 +1,77 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+header {
+    background-color: #F2831D; 
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+header .logo {
+    font-size: 0.7em;
+    color: #000000;
+}
+
+header .title {
+    font-size: 1.5em;
+    
+}
+
+header .bat-icon img {
+    width: 240px; 
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+.title{
+    padding-bottom: 0;
+    text-align: center;
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+p {
+    padding-top: 0%;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    color: #000000;
+    font-weight: bold;
+    
+}
+
+footer {
+    background-color: #808080;
+    padding: 70px;
+    padding-top: 50px;
+    text-align: right;
+}
+
+.bat-footer {
+    position: relative;
+    height: 100px; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px; 
+}
+
+.bat-footer img {
+    width: 100px;
+}

@@ -1,0 +1,204 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #F2831D;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header .logo {
+    font-size: 1em;
+    color: #000000;
+}
+
+header .title {
+    font-size: 2em;
+}
+
+header .bat-icon img {
+    width: 300px;
+}
+
+main {
+    padding: 30px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.textinfo {
+    font-size: 1.6em;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form-wrapper {
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    width: 100%;
+    max-width: 1500px;
+    overflow: hidden;
+}
+
+.contact-image {
+    position: relative;
+    flex: 2;
+}
+
+.contact-image img {
+    width: 150%;
+    height: auto;
+    border-top-left-radius: 20px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.overlay .title {
+    font-size: 1.8em;
+    padding-left: 30px;
+}
+
+.overlay .subtitle {
+    font-size: 1.2em;
+    opacity: 0.7;
+    padding-left: 30px;
+}
+
+.overlay .footer {
+    margin-top: auto;
+}
+
+.overlay p {
+    margin: 10px 0;
+}
+
+.overlay a {
+    color: #FFFFFF;
+}
+
+.overlay .social-media-icons {
+    display: flex;
+    justify-content: left;
+    gap: 1px;
+    margin-top: 10px;
+}
+
+.overlay .social-media-icons i {
+    font-size: 1.2em;
+}
+
+.contact-form {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    padding-left: 270px;
+}
+
+.contact-form p {
+    margin-bottom: 90px;
+    font-size: 1.7em;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contact-form .form-row {
+    display: flex;
+    gap: 22px;
+}
+
+.contact-form .form-group {
+    flex: 1;
+}
+
+.contact-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.contact-form input {
+    padding: 10px;
+    font-size: 1.2em;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #000;
+    background-color: transparent;
+    outline: none;
+}
+
+.contact-form button {
+    padding: 15px;
+    background-color: #F2831D;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    align-self: flex-start;
+    font-size: 1.1em;
+}
+
+.contact-form button:hover {
+    background-color: #D26C0F;
+}
+
+.contact-info-details {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social-media-icons i {
+    margin-right: 12px;
+    font-size: 3em;
+}
+
+.bat-footer {
+    position: relative;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.bat-footer img {
+    width: 100px;
+}
